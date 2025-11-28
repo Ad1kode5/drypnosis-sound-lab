@@ -118,7 +118,7 @@ export default {
   					opacity: '0.5'
   				}
   			},
-  			'float': {
+  			float: {
   				'0%, 100%': {
   					transform: 'translateY(0)'
   				},
@@ -133,7 +133,7 @@ export default {
   			'fade-in': 'fade-in 0.6s ease-out',
   			'slide-in': 'slide-in 0.5s ease-out',
   			'glow-pulse': 'glow-pulse 2s ease-in-out infinite',
-  			'float': 'float 3s ease-in-out infinite'
+  			float: 'float 3s ease-in-out infinite'
   		},
   		backdropBlur: {
   			xs: '2px'
@@ -149,19 +149,20 @@ export default {
   		},
   		fontFamily: {
   			sans: [
-  				'Roboto',
+  				'Work Sans',
   				'ui-sans-serif',
   				'system-ui',
   				'-apple-system',
   				'BlinkMacSystemFont',
   				'Segoe UI',
+  				'Roboto',
   				'Helvetica Neue',
   				'Arial',
   				'Noto Sans',
   				'sans-serif'
   			],
   			serif: [
-  				'Libre Caslon Text',
+  				'Lora',
   				'ui-serif',
   				'Georgia',
   				'Cambria',
@@ -170,7 +171,7 @@ export default {
   				'serif'
   			],
   			mono: [
-  				'Roboto Mono',
+  				'Inconsolata',
   				'ui-monospace',
   				'SFMono-Regular',
   				'Menlo',
